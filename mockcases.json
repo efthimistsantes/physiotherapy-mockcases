@@ -2,27 +2,25 @@
   {
     "id": 1,
     "title": "Case of Acute Knee Pain",
-    "caseDescription": "A 35-year-old runner experiences sudden knee pain after a marathon.",
+    "description": "A 35-year-old runner experiences sudden knee pain after a marathon.",
     "onset": "Sudden",
     "patientProfile": "35-year-old male, active lifestyle, no prior injuries.",
     "presentingComplaint": "Severe right knee pain during stair climbing.",
     "subjectiveEvaluation": "Pain rated 7/10, worsens with movement.",
     "objectiveEvaluation": "Swelling and reduced range of motion in the right knee.",
     "assessmentData": "Suspected meniscus tear based on McMurray test.",
-    "rating": "High priority",
-    "rehabilitation": "Physiotherapy 3x/week for 6 weeks with gradual return to running."
+    "rating": "High priority"
   },
   {
     "id": 2,
     "title": "Chronic Lower Back Pain",
-    "caseDescription": "Patient complains of lower back pain persisting for over 6 months.",
+    "description": "Patient complains of lower back pain persisting for over 6 months.",
     "onset": "Gradual",
     "patientProfile": "52-year-old female, sedentary job, mild scoliosis.",
     "presentingComplaint": "Persistent ache in lower lumbar region.",
     "subjectiveEvaluation": "Pain rated 4/10, worse after long periods of sitting.",
     "objectiveEvaluation": "Decreased lumbar flexibility, muscle tightness.",
     "assessmentData": "Chronic mechanical low back pain with no neurological signs.",
-    "rating": "Moderate priority",
-    "rehabilitation": "Core strengthening exercises and posture training for 8 weeks."
+    "rating": "Moderate priority"
   }
 ]
