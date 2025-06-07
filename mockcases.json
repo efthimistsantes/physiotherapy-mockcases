@@ -1,75 +1,38 @@
 [
   {
-    "id": "1A23F84B-9C10-4D0B-9325-901F2A348AF3",
+    "id": 0,
     "title": "Case 1: Knee Injury",
     "description": "A 25-year-old male presents with acute pain after a football match.",
     "onset": "Sudden, during game play",
     "subjectiveEvaluation": "Pain worsens with weight bearing. No prior history of knee injury.",
     "objectiveEvaluation": "Swelling and tenderness over the medial joint line. Positive McMurray test.",
-    "rehabilitationPlan": "RICE protocol followed by physical therapy for strength and mobility.",
     "rating": "4.5",
     "patientProfile": "25-year-old male, professional soccer player",
     "presentingComplaint": "Severe knee pain post-injury during sports activity",
-    "assessmentData": "MRI reveals meniscal tear",
-    "questions": [
-      {
-        "id": "q1",
-        "questionText": "What is the most likely diagnosis?",
-        "options": ["ACL tear", "Meniscal tear", "Patellar dislocation", "MCL sprain"],
-        "correctAnswerIndex": 1,
-        "explanation": "A positive McMurray test and medial joint line tenderness indicate a meniscal tear."
-      },
-      {
-        "id": "q2",
-        "questionText": "What is the first step in management?",
-        "options": ["Immediate surgery", "RICE", "NSAIDs only", "Bracing only"],
-        "correctAnswerIndex": 1,
-        "explanation": "RICE is the initial management for soft tissue injuries."
-      }
-    ]
+    "assessmentData": "MRI reveals meniscal tear"
   },
   {
-    "id": "2B34E27D-FA21-4BE7-A7AB-E6CC91AEE888",
+    "id": 1,
     "title": "Case 2: Shoulder Dislocation",
     "description": "A 30-year-old female complains of numbness following a fall.",
     "onset": "Immediate after trauma",
     "subjectiveEvaluation": "Pain and inability to lift arm. History of recurrent dislocations.",
     "objectiveEvaluation": "Visible deformity, limited range of motion.",
-    "rehabilitationPlan": "Reduction, immobilization, and rehab to strengthen rotator cuff muscles.",
     "rating": "4.2",
     "patientProfile": "30-year-old female, recreational climber",
     "presentingComplaint": "Shoulder pain and numbness after fall",
-    "assessmentData": "X-ray confirms anterior shoulder dislocation",
-    "questions": [
-      {
-        "id": "q1",
-        "questionText": "What is the initial treatment?",
-        "options": ["Physical therapy", "Surgery", "Closed reduction", "Steroid injection"],
-        "correctAnswerIndex": 2,
-        "explanation": "Closed reduction is the first-line treatment for dislocation."
-      }
-    ]
+    "assessmentData": "X-ray confirms anterior shoulder dislocation"
   },
   {
-    "id": "3C45F39E-2A22-49C1-B453-ABAC3F452111",
+    "id": 2,
     "title": "Case 3: Ankle Sprain",
     "description": "A 19-year-old male experiences swelling after running a marathon.",
     "onset": "Gradual pain with swelling by evening",
     "subjectiveEvaluation": "Difficulty bearing weight, mild instability.",
     "objectiveEvaluation": "Tenderness over lateral ligaments, mild bruising.",
-    "rehabilitationPlan": "RICE, bracing, and progressive strengthening exercises.",
     "rating": "4.0",
     "patientProfile": "19-year-old male, college track athlete",
     "presentingComplaint": "Ankle pain and swelling post-marathon",
-    "assessmentData": "No fracture on X-ray, Grade II sprain",
-    "questions": [
-      {
-        "id": "q1",
-        "questionText": "Which ligament is most likely injured?",
-        "options": ["Deltoid ligament", "Anterior talofibular ligament", "Calcaneofibular ligament", "Posterior tibiofibular ligament"],
-        "correctAnswerIndex": 1,
-        "explanation": "The anterior talofibular ligament is the most commonly injured in lateral sprains."
-      }
-    ]
+    "assessmentData": "No fracture on X-ray, Grade II sprain"
   }
 ]
