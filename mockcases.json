@@ -1,39 +1,28 @@
 [
   {
-    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
-    "title": "Knee Injury Rehabilitation",
-    "patient_profile": "A 25-year-old male, amateur soccer player, presenting with right knee pain after a tackle injury.",
-    "presenting_complaint": "Pain and swelling in the right knee following a direct impact during soccer.",
-    "onset": "Symptoms started immediately after the injury, 2 days ago.",
-    "subjective_evaluation": "Patient reports difficulty bearing weight on the affected leg and limited range of motion.",
-    "objective_evaluation": {
-      "findings": [
-        "Swelling and tenderness around the medial joint line",
-        "Reduced flexion to 90 degrees",
-        "Positive Lachman test indicating ACL instability"
-      ]
-    },
-    "assessment_data": "Likely ACL sprain with possible meniscal involvement. MRI recommended for confirmation.",
-    "rehabilitation_phases": {
-      "acute_phase": "Pain management and swelling reduction using ice and compression.",
-      "subacute_phase": "Begin gentle range of motion and isometric strengthening exercises.",
-      "return_to_play_phase": "Gradual return to running and sport-specific drills after strength recovery.",
-      "immobilization_phase": "Knee brace used for 2 weeks post-injury.",
-      "mobilization_phase": "Active assisted knee mobilization exercises.",
-      "reintegration_phase": "Sport-specific training and neuromuscular re-education.",
-      "phase_I": "Initial 2 weeks focusing on protection and pain control.",
-      "phase_II": "Weeks 3-6 focusing on mobility and strengthening.",
-      "phase_III": "Weeks 7-12 focusing on functional training.",
-      "post_immobilization": "Start proprioception and balance training.",
-      "strengthening_phase": "Progressive resistance exercises for quadriceps and hamstrings.",
-      "functional_phase": "Agility drills and return-to-sport assessment."
-    },
-    "differential_diagnoses": [
-      "Meniscal tear",
-      "Medial collateral ligament sprain",
-      "Patellar tendinitis"
-    ],
-    "biomechanics": "Altered gait pattern due to pain and reduced knee flexion; emphasis on correcting weight distribution.",
-    "rating": 4.5
+    "id": 1,
+    "title": "Case of Acute Knee Pain",
+    "caseDescription": "A 35-year-old runner experiences sudden knee pain after a marathon.",
+    "onset": "Sudden",
+    "patientProfile": "35-year-old male, active lifestyle, no prior injuries.",
+    "presentingComplaint": "Severe right knee pain during stair climbing.",
+    "subjectiveEvaluation": "Pain rated 7/10, worsens with movement.",
+    "objectiveEvaluation": "Swelling and reduced range of motion in the right knee.",
+    "assessmentData": "Suspected meniscus tear based on McMurray test.",
+    "rating": "High priority",
+    "rehabilitation": "Physiotherapy 3x/week for 6 weeks with gradual return to running."
+  },
+  {
+    "id": 2,
+    "title": "Chronic Lower Back Pain",
+    "caseDescription": "Patient complains of lower back pain persisting for over 6 months.",
+    "onset": "Gradual",
+    "patientProfile": "52-year-old female, sedentary job, mild scoliosis.",
+    "presentingComplaint": "Persistent ache in lower lumbar region.",
+    "subjectiveEvaluation": "Pain rated 4/10, worse after long periods of sitting.",
+    "objectiveEvaluation": "Decreased lumbar flexibility, muscle tightness.",
+    "assessmentData": "Chronic mechanical low back pain with no neurological signs.",
+    "rating": "Moderate priority",
+    "rehabilitation": "Core strengthening exercises and posture training for 8 weeks."
   }
 ]
