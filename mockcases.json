@@ -15,7 +15,7 @@
         ]
       },
       "assessment_data": "MRI confirms complex tear of the medial meniscus (posterior horn)",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "acute_phase": "Cryotherapy, non-weight bearing with crutches, isometric quadriceps activation",
         "subacute_phase": "Range of motion (ROM) exercises, closed kinetic chain strengthening, proprioceptive retraining",
         "return_to_play_phase": "Sport-specific drills, neuromuscular re-education, agility training"
@@ -39,7 +39,7 @@
         ]
       },
       "assessment_data": "X-ray confirms anterior dislocation, Hill-Sachs lesion",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "immobilization_phase": "Sling support, pendular exercises, isometric scapular stabilizers",
         "mobilization_phase": "Controlled ROM, rotator cuff strengthening, proprioceptive training",
         "reintegration_phase": "Plyometrics, kinetic chain integration, return to climbing simulations"
@@ -62,7 +62,7 @@
         ]
       },
       "assessment_data": "Radiographs show no fracture; clinical diagnosis – Grade II inversion sprain",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "phase_I": "PRICE protocol, immobilization, pain-free dorsiflexion/plantarflexion",
         "phase_II": "Resistance band strengthening, balance board work",
         "phase_III": "Dynamic stabilization, hop test training, proprioceptive ladder drills"
@@ -86,7 +86,7 @@
         ]
       },
       "assessment_data": "MRI shows L4-L5 disc dehydration and mild bulge",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "phase_I": "Education on posture, McKenzie extension protocol",
         "phase_II": "Lumbar stabilization, core retraining (TA, multifidus)",
         "phase_III": "Functional movement re-education, ergonomic assessment, lifting mechanics"
@@ -109,7 +109,7 @@
         ]
       },
       "assessment_data": "X-ray confirms distal radius metaphyseal fracture",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "post_immobilization": "AROM exercises, edema control",
         "strengthening_phase": "Progressive grip strengthening, dexterity drills",
         "functional_phase": "Fine motor retraining for age-appropriate activities"
@@ -132,7 +132,7 @@
         ]
       },
       "assessment_data": "Clinical diagnosis of lateral epicondylitis",
-      "physiotherapeutic_considerations": {
+      "rehabilitation_phases": {
         "phase_I": "Load management, ice massage, isometrics in pain-free range",
         "phase_II": "Eccentric wrist extension loading, stretching ECRB",
         "phase_III": "Kinetic chain integration, ergonomic re-training"
