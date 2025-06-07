@@ -1,143 +1,107 @@
 [
   {
     "title": "Knee Injury – Meniscal Tear",
-    "patient_profile": "25-year-old male, professional soccer player",
-    "presenting_complaint": "Severe right knee pain post-tackle during a match",
+    "patient_profile": "28-year-old male, amateur soccer player",
+    "presenting_complaint": "Knee pain and swelling after twisting injury",
     "onset": "Sudden, twisting injury while pivoting",
-    "subjective_evaluation": "Reports sharp medial knee pain, locking sensations, and difficulty bearing weight. No prior injuries.",
+    "subjective_evaluation": "Pain localized at the medial joint line, worsens with weight-bearing",
     "objective_evaluation": {
       "findings": [
-        "Visible joint effusion",
-        "Tenderness over medial joint line",
-        "Positive McMurray’s and Thessaly test",
-        "Reduced terminal extension"
+        "Swelling around the knee",
+        "Limited flexion to 90 degrees",
+        "Positive McMurray test"
       ]
     },
-    "assessment_data": "MRI confirms complex tear of the medial meniscus (posterior horn)",
+    "assessment_data": "Suspected medial meniscal tear, MRI recommended",
     "rehabilitation_phases": {
-      "acute_phase": "Cryotherapy, non-weight bearing with crutches, isometric quadriceps activation",
-      "subacute_phase": "Range of motion (ROM) exercises, closed kinetic chain strengthening, proprioceptive retraining",
-      "return_to_play_phase": "Sport-specific drills, neuromuscular re-education, agility training"
+      "acute_phase": "Rest, ice, compression, elevation (RICE)",
+      "subacute_phase": "Gentle range of motion and isometric strengthening",
+      "return_to_play_phase": "Progressive strengthening and proprioception drills",
+      "immobilization_phase": null,
+      "mobilization_phase": null,
+      "reintegration_phase": null,
+      "phase_I": null,
+      "phase_II": null,
+      "phase_III": null,
+      "post_immobilization": null,
+      "strengthening_phase": null,
+      "functional_phase": null
     },
-    "differential_diagnoses": ["ACL sprain", "MCL strain"],
-    "biomechanics": "Faulty landing mechanics; emphasis on valgus knee control",
+    "differential_diagnoses": [
+      "ACL sprain",
+      "Patellar tendinitis"
+    ],
+    "biomechanics": "Faulty landing mechanics with valgus collapse",
     "rating": 4.5
   },
   {
     "title": "Shoulder Dislocation – Anterior",
-    "patient_profile": "30-year-old female, recreational rock climber",
-    "presenting_complaint": "Right shoulder deformity and numbness after a fall while climbing",
+    "patient_profile": "35-year-old female, recreational tennis player",
+    "presenting_complaint": "Severe shoulder pain and limited movement after fall",
     "onset": "Immediate post-trauma",
-    "subjective_evaluation": "Intense pain, tingling down arm, history of 2 prior dislocations",
+    "subjective_evaluation": "Feeling of instability and weakness",
     "objective_evaluation": {
       "findings": [
-        "Flattened deltoid contour",
-        "Severe ROM limitation in abduction and external rotation",
-        "Positive Apprehension and Relocation test",
-        "Weak deltoid and supraspinatus (suspected axillary nerve involvement)"
+        "Visible deformity",
+        "Limited external rotation",
+        "Positive apprehension test"
       ]
     },
-    "assessment_data": "X-ray confirms anterior dislocation, Hill-Sachs lesion",
+    "assessment_data": "Anterior shoulder dislocation, urgent reduction performed",
     "rehabilitation_phases": {
-      "immobilization_phase": "Sling support, pendular exercises, isometric scapular stabilizers",
-      "mobilization_phase": "Controlled ROM, rotator cuff strengthening, proprioceptive training",
-      "reintegration_phase": "Plyometrics, kinetic chain integration, return to climbing simulations"
+      "acute_phase": "Immobilization in sling for 2 weeks",
+      "subacute_phase": "Pendulum exercises and gentle ROM",
+      "return_to_play_phase": "Strengthening rotator cuff and scapular stabilizers",
+      "immobilization_phase": "2 weeks sling use",
+      "mobilization_phase": "Start after immobilization",
+      "reintegration_phase": "Return to sport-specific drills",
+      "phase_I": null,
+      "phase_II": null,
+      "phase_III": null,
+      "post_immobilization": null,
+      "strengthening_phase": null,
+      "functional_phase": null
     },
-    "differential_diagnoses": ["Rotator cuff tear", "Brachial plexus injury"],
-    "biomechanics": "Hyperlaxity of GH joint; needs scapulohumeral rhythm correction",
+    "differential_diagnoses": [
+      "Rotator cuff tear",
+      "Labral injury"
+    ],
+    "biomechanics": "Hyperlaxity of glenohumeral joint",
     "rating": 4.2
   },
   {
     "title": "Ankle Sprain – Grade II Lateral Ligament",
-    "patient_profile": "19-year-old male, long-distance runner",
-    "presenting_complaint": "Lateral ankle pain and instability post-marathon",
-    "onset": "Insidious during final miles, worsened after rest",
-    "subjective_evaluation": "Pain with ambulation, perceived instability, audible 'pop' during run",
+    "patient_profile": "22-year-old female, college athlete",
+    "presenting_complaint": "Lateral ankle pain and swelling",
+    "onset": "Insidious during final miles of running, worsened after rest",
+    "subjective_evaluation": "Sharp pain on inversion, difficulty weight bearing",
     "objective_evaluation": {
       "findings": [
-        "Edema and ecchymosis over lateral malleolus",
-        "Tender ATFL and CFL",
-        "Positive anterior drawer and talar tilt test"
+        "Tenderness over anterior talofibular ligament",
+        "Swelling and bruising",
+        "Positive anterior drawer test"
       ]
     },
-    "assessment_data": "Radiographs show no fracture; clinical diagnosis – Grade II inversion sprain",
+    "assessment_data": "Grade II lateral ankle sprain confirmed by clinical exam",
     "rehabilitation_phases": {
-      "phase_I": "PRICE protocol, immobilization, pain-free dorsiflexion/plantarflexion",
-      "phase_II": "Resistance band strengthening, balance board work",
-      "phase_III": "Dynamic stabilization, hop test training, proprioceptive ladder drills"
+      "acute_phase": "RICE and limited weight bearing",
+      "subacute_phase": "Progressive weight bearing and proprioceptive training",
+      "return_to_play_phase": "Sport-specific drills and strengthening",
+      "immobilization_phase": null,
+      "mobilization_phase": null,
+      "reintegration_phase": null,
+      "phase_I": null,
+      "phase_II": null,
+      "phase_III": null,
+      "post_immobilization": null,
+      "strengthening_phase": null,
+      "functional_phase": null
     },
-    "differential_diagnoses": ["Peroneal tendon strain", "Osteochondral lesion of talus"],
-    "biomechanics": "Overpronation and poor ankle dorsiflexion ROM; requires gait re-training",
+    "differential_diagnoses": [
+      "Fracture",
+      "Tendon injury"
+    ],
+    "biomechanics": "Overpronation and poor dorsiflexion range of motion",
     "rating": 4.0
-  },
-  {
-    "title": "Chronic Lower Back Pain – Disc Degeneration",
-    "patient_profile": "45-year-old female, desk-bound office worker",
-    "presenting_complaint": "Dull low back ache with stiffness, worsening over months",
-    "onset": "Gradual onset, worse with prolonged sitting",
-    "subjective_evaluation": "Stiffness in mornings, increased discomfort with flexion and standing after sitting",
-    "objective_evaluation": {
-      "findings": [
-        "Decreased lumbar flexion and extension",
-        "Palpable paraspinal tenderness",
-        "Negative straight leg raise",
-        "Poor core endurance"
-      ]
-    },
-    "assessment_data": "MRI shows L4-L5 disc dehydration and mild bulge",
-    "rehabilitation_phases": {
-      "phase_I": "Education on posture, McKenzie extension protocol",
-      "phase_II": "Lumbar stabilization, core retraining (TA, multifidus)",
-      "phase_III": "Functional movement re-education, ergonomic assessment, lifting mechanics"
-    },
-    "differential_diagnoses": ["Facet joint syndrome", "SI joint dysfunction"],
-    "biomechanics": "Anterior pelvic tilt, poor load transfer across lumbopelvic complex",
-    "rating": 3.8
-  },
-  {
-    "title": "Wrist Fracture – Distal Radius",
-    "patient_profile": "12-year-old boy, high-energy fall from bicycle",
-    "presenting_complaint": "Pain and visible deformity in right wrist",
-    "onset": "Immediate trauma",
-    "subjective_evaluation": "Crying, inability to move hand or hold objects",
-    "objective_evaluation": {
-      "findings": [
-        "Obvious dorsal displacement (dinner fork deformity)",
-        "Swelling and guarding",
-        "Painful limited motion"
-      ]
-    },
-    "assessment_data": "X-ray confirms distal radius metaphyseal fracture",
-    "rehabilitation_phases": {
-      "post_immobilization": "AROM exercises, edema control",
-      "strengthening_phase": "Progressive grip strengthening, dexterity drills",
-      "functional_phase": "Fine motor retraining for age-appropriate activities"
-    },
-    "differential_diagnoses": ["Salter-Harris fracture", "Carpal bone injury"],
-    "biomechanics": "Focus on developmental ergonomics and return to play",
-    "rating": 4.7
-  },
-  {
-    "title": "Lateral Epicondylitis – Tennis Elbow",
-    "patient_profile": "38-year-old male, weekend tennis player",
-    "presenting_complaint": "Gradual onset elbow pain on lateral side",
-    "onset": "Insidious after increased weekend play",
-    "subjective_evaluation": "Pain with gripping, resisted wrist extension, and carrying groceries",
-    "objective_evaluation": {
-      "findings": [
-        "Tenderness at lateral epicondyle",
-        "Positive Cozen’s and Mill’s tests",
-        "Decreased grip strength"
-      ]
-    },
-    "assessment_data": "Clinical diagnosis of lateral epicondylitis",
-    "rehabilitation_phases": {
-      "phase_I": "Load management, ice massage, isometrics in pain-free range",
-      "phase_II": "Eccentric wrist extension loading, stretching ECRB",
-      "phase_III": "Kinetic chain integration, ergonomic re-training"
-    },
-    "differential_diagnoses": ["Radial tunnel syndrome", "Cervical radiculopathy"],
-    "biomechanics": "Poor force dissipation in upper limb chain; focus on scapular strength",
-    "rating": 4.1
   }
 ]
