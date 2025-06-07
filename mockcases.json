@@ -1,107 +1,39 @@
 [
   {
-    "title": "Knee Injury – Meniscal Tear",
-    "patient_profile": "28-year-old male, amateur soccer player",
-    "presenting_complaint": "Knee pain and swelling after twisting injury",
-    "onset": "Sudden, twisting injury while pivoting",
-    "subjective_evaluation": "Pain localized at the medial joint line, worsens with weight-bearing",
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "title": "Knee Injury Rehabilitation",
+    "patient_profile": "A 25-year-old male, amateur soccer player, presenting with right knee pain after a tackle injury.",
+    "presenting_complaint": "Pain and swelling in the right knee following a direct impact during soccer.",
+    "onset": "Symptoms started immediately after the injury, 2 days ago.",
+    "subjective_evaluation": "Patient reports difficulty bearing weight on the affected leg and limited range of motion.",
     "objective_evaluation": {
       "findings": [
-        "Swelling around the knee",
-        "Limited flexion to 90 degrees",
-        "Positive McMurray test"
+        "Swelling and tenderness around the medial joint line",
+        "Reduced flexion to 90 degrees",
+        "Positive Lachman test indicating ACL instability"
       ]
     },
-    "assessment_data": "Suspected medial meniscal tear, MRI recommended",
+    "assessment_data": "Likely ACL sprain with possible meniscal involvement. MRI recommended for confirmation.",
     "rehabilitation_phases": {
-      "acute_phase": "Rest, ice, compression, elevation (RICE)",
-      "subacute_phase": "Gentle range of motion and isometric strengthening",
-      "return_to_play_phase": "Progressive strengthening and proprioception drills",
-      "immobilization_phase": null,
-      "mobilization_phase": null,
-      "reintegration_phase": null,
-      "phase_I": null,
-      "phase_II": null,
-      "phase_III": null,
-      "post_immobilization": null,
-      "strengthening_phase": null,
-      "functional_phase": null
+      "acute_phase": "Pain management and swelling reduction using ice and compression.",
+      "subacute_phase": "Begin gentle range of motion and isometric strengthening exercises.",
+      "return_to_play_phase": "Gradual return to running and sport-specific drills after strength recovery.",
+      "immobilization_phase": "Knee brace used for 2 weeks post-injury.",
+      "mobilization_phase": "Active assisted knee mobilization exercises.",
+      "reintegration_phase": "Sport-specific training and neuromuscular re-education.",
+      "phase_I": "Initial 2 weeks focusing on protection and pain control.",
+      "phase_II": "Weeks 3-6 focusing on mobility and strengthening.",
+      "phase_III": "Weeks 7-12 focusing on functional training.",
+      "post_immobilization": "Start proprioception and balance training.",
+      "strengthening_phase": "Progressive resistance exercises for quadriceps and hamstrings.",
+      "functional_phase": "Agility drills and return-to-sport assessment."
     },
     "differential_diagnoses": [
-      "ACL sprain",
+      "Meniscal tear",
+      "Medial collateral ligament sprain",
       "Patellar tendinitis"
     ],
-    "biomechanics": "Faulty landing mechanics with valgus collapse",
+    "biomechanics": "Altered gait pattern due to pain and reduced knee flexion; emphasis on correcting weight distribution.",
     "rating": 4.5
-  },
-  {
-    "title": "Shoulder Dislocation – Anterior",
-    "patient_profile": "35-year-old female, recreational tennis player",
-    "presenting_complaint": "Severe shoulder pain and limited movement after fall",
-    "onset": "Immediate post-trauma",
-    "subjective_evaluation": "Feeling of instability and weakness",
-    "objective_evaluation": {
-      "findings": [
-        "Visible deformity",
-        "Limited external rotation",
-        "Positive apprehension test"
-      ]
-    },
-    "assessment_data": "Anterior shoulder dislocation, urgent reduction performed",
-    "rehabilitation_phases": {
-      "acute_phase": "Immobilization in sling for 2 weeks",
-      "subacute_phase": "Pendulum exercises and gentle ROM",
-      "return_to_play_phase": "Strengthening rotator cuff and scapular stabilizers",
-      "immobilization_phase": "2 weeks sling use",
-      "mobilization_phase": "Start after immobilization",
-      "reintegration_phase": "Return to sport-specific drills",
-      "phase_I": null,
-      "phase_II": null,
-      "phase_III": null,
-      "post_immobilization": null,
-      "strengthening_phase": null,
-      "functional_phase": null
-    },
-    "differential_diagnoses": [
-      "Rotator cuff tear",
-      "Labral injury"
-    ],
-    "biomechanics": "Hyperlaxity of glenohumeral joint",
-    "rating": 4.2
-  },
-  {
-    "title": "Ankle Sprain – Grade II Lateral Ligament",
-    "patient_profile": "22-year-old female, college athlete",
-    "presenting_complaint": "Lateral ankle pain and swelling",
-    "onset": "Insidious during final miles of running, worsened after rest",
-    "subjective_evaluation": "Sharp pain on inversion, difficulty weight bearing",
-    "objective_evaluation": {
-      "findings": [
-        "Tenderness over anterior talofibular ligament",
-        "Swelling and bruising",
-        "Positive anterior drawer test"
-      ]
-    },
-    "assessment_data": "Grade II lateral ankle sprain confirmed by clinical exam",
-    "rehabilitation_phases": {
-      "acute_phase": "RICE and limited weight bearing",
-      "subacute_phase": "Progressive weight bearing and proprioceptive training",
-      "return_to_play_phase": "Sport-specific drills and strengthening",
-      "immobilization_phase": null,
-      "mobilization_phase": null,
-      "reintegration_phase": null,
-      "phase_I": null,
-      "phase_II": null,
-      "phase_III": null,
-      "post_immobilization": null,
-      "strengthening_phase": null,
-      "functional_phase": null
-    },
-    "differential_diagnoses": [
-      "Fracture",
-      "Tendon injury"
-    ],
-    "biomechanics": "Overpronation and poor dorsiflexion range of motion",
-    "rating": 4.0
   }
 ]
