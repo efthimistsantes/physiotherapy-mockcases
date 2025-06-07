@@ -34,5 +34,41 @@
     "patientProfile": "19-year-old male, college track athlete",
     "presentingComplaint": "Ankle pain and swelling post-marathon",
     "assessmentData": "No fracture on X-ray, Grade II sprain"
+  },
+  {
+    "id": 3,
+    "title": "Case 4: Lower Back Pain",
+    "description": "A 45-year-old female reports chronic lower back pain worsening over months.",
+    "onset": "Insidious, progressive",
+    "subjectiveEvaluation": "Pain increases after prolonged sitting and standing.",
+    "objectiveEvaluation": "Reduced lumbar range of motion, tenderness over paraspinal muscles.",
+    "rating": "3.8",
+    "patientProfile": "45-year-old female, office worker",
+    "presentingComplaint": "Chronic low back pain with stiffness",
+    "assessmentData": "MRI shows mild disc degeneration"
+  },
+  {
+    "id": 4,
+    "title": "Case 5: Wrist Fracture",
+    "description": "A 12-year-old boy fell off his bike and presents with wrist pain and swelling.",
+    "onset": "Acute after trauma",
+    "subjectiveEvaluation": "Sharp pain on movement, inability to grip objects.",
+    "objectiveEvaluation": "Swelling and deformity on wrist, limited motion.",
+    "rating": "4.7",
+    "patientProfile": "12-year-old boy, active child",
+    "presentingComplaint": "Pain and swelling on wrist post-fall",
+    "assessmentData": "X-ray shows distal radius fracture"
+  },
+  {
+    "id": 5,
+    "title": "Case 6: Tennis Elbow",
+    "description": "A 38-year-old male complains of lateral elbow pain after increased racket sports.",
+    "onset": "Gradual onset",
+    "subjectiveEvaluation": "Pain on gripping and wrist extension.",
+    "objectiveEvaluation": "Tenderness over lateral epicondyle, positive Cozen's test.",
+    "rating": "4.1",
+    "patientProfile": "38-year-old male, amateur tennis player",
+    "presentingComplaint": "Lateral elbow pain with activity",
+    "assessmentData": "Clinical diagnosis of lateral epicondylitis"
   }
 ]
