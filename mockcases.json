@@ -1,74 +1,145 @@
-[
-  {
-    "id": 0,
-    "title": "Case 1: Knee Injury",
-    "description": "A 25-year-old male presents with acute pain after a football match.",
-    "onset": "Sudden, during game play",
-    "subjectiveEvaluation": "Pain worsens with weight bearing. No prior history of knee injury.",
-    "objectiveEvaluation": "Swelling and tenderness over the medial joint line. Positive McMurray test.",
-    "rating": "4.5",
-    "patientProfile": "25-year-old male, professional soccer player",
-    "presentingComplaint": "Severe knee pain post-injury during sports activity",
-    "assessmentData": "MRI reveals meniscal tear"
-  },
-  {
-    "id": 1,
-    "title": "Case 2: Shoulder Dislocation",
-    "description": "A 30-year-old female complains of numbness following a fall.",
-    "onset": "Immediate after trauma",
-    "subjectiveEvaluation": "Pain and inability to lift arm. History of recurrent dislocations.",
-    "objectiveEvaluation": "Visible deformity, limited range of motion.",
-    "rating": "4.2",
-    "patientProfile": "30-year-old female, recreational climber",
-    "presentingComplaint": "Shoulder pain and numbness after fall",
-    "assessmentData": "X-ray confirms anterior shoulder dislocation"
-  },
-  {
-    "id": 2,
-    "title": "Case 3: Ankle Sprain",
-    "description": "A 19-year-old male experiences swelling after running a marathon.",
-    "onset": "Gradual pain with swelling by evening",
-    "subjectiveEvaluation": "Difficulty bearing weight, mild instability.",
-    "objectiveEvaluation": "Tenderness over lateral ligaments, mild bruising.",
-    "rating": "4.0",
-    "patientProfile": "19-year-old male, college track athlete",
-    "presentingComplaint": "Ankle pain and swelling post-marathon",
-    "assessmentData": "No fracture on X-ray, Grade II sprain"
-  },
-  {
-    "id": 3,
-    "title": "Case 4: Lower Back Pain",
-    "description": "A 45-year-old female reports chronic lower back pain worsening over months.",
-    "onset": "Insidious, progressive",
-    "subjectiveEvaluation": "Pain increases after prolonged sitting and standing.",
-    "objectiveEvaluation": "Reduced lumbar range of motion, tenderness over paraspinal muscles.",
-    "rating": "3.8",
-    "patientProfile": "45-year-old female, office worker",
-    "presentingComplaint": "Chronic low back pain with stiffness",
-    "assessmentData": "MRI shows mild disc degeneration"
-  },
-  {
-    "id": 4,
-    "title": "Case 5: Wrist Fracture",
-    "description": "A 12-year-old boy fell off his bike and presents with wrist pain and swelling.",
-    "onset": "Acute after trauma",
-    "subjectiveEvaluation": "Sharp pain on movement, inability to grip objects.",
-    "objectiveEvaluation": "Swelling and deformity on wrist, limited motion.",
-    "rating": "4.7",
-    "patientProfile": "12-year-old boy, active child",
-    "presentingComplaint": "Pain and swelling on wrist post-fall",
-    "assessmentData": "X-ray shows distal radius fracture"
-  },
-  {
-    "id": 5,
-    "title": "Case 6: Tennis Elbow",
-    "description": "A 38-year-old male complains of lateral elbow pain after increased racket sports.",
-    "onset": "Gradual onset",
-    "subjectiveEvaluation": "Pain on gripping and wrist extension.",
-    "objectiveEvaluation": "Tenderness over lateral epicondyle, positive Cozen's test.",
-    "rating": "4.1",
-    "patientProfile": "38-year-old male, amateur tennis player",
-    "presentingComplaint": "Lateral elbow pain with activity",
-    "assessmentData": "Clinical diagnosis of lateral epicondylitis"
-  }
-]
+{
+  "cases": [
+    {
+      "title": "Knee Injury – Meniscal Tear",
+      "patient_profile": "25-year-old male, professional soccer player",
+      "presenting_complaint": "Severe right knee pain post-tackle during a match",
+      "onset": "Sudden, twisting injury while pivoting",
+      "subjective_evaluation": "Reports sharp medial knee pain, locking sensations, and difficulty bearing weight. No prior injuries.",
+      "objective_evaluation": {
+        "findings": [
+          "Visible joint effusion",
+          "Tenderness over medial joint line",
+          "Positive McMurray’s and Thessaly test",
+          "Reduced terminal extension"
+        ]
+      },
+      "assessment_data": "MRI confirms complex tear of the medial meniscus (posterior horn)",
+      "physiotherapeutic_considerations": {
+        "acute_phase": "Cryotherapy, non-weight bearing with crutches, isometric quadriceps activation",
+        "subacute_phase": "Range of motion (ROM) exercises, closed kinetic chain strengthening, proprioceptive retraining",
+        "return_to_play_phase": "Sport-specific drills, neuromuscular re-education, agility training"
+      },
+      "differential_diagnoses": ["ACL sprain", "MCL strain"],
+      "biomechanics": "Faulty landing mechanics; emphasis on valgus knee control",
+      "rating": 4.5
+    },
+    {
+      "title": "Shoulder Dislocation – Anterior",
+      "patient_profile": "30-year-old female, recreational rock climber",
+      "presenting_complaint": "Right shoulder deformity and numbness after a fall while climbing",
+      "onset": "Immediate post-trauma",
+      "subjective_evaluation": "Intense pain, tingling down arm, history of 2 prior dislocations",
+      "objective_evaluation": {
+        "findings": [
+          "Flattened deltoid contour",
+          "Severe ROM limitation in abduction and external rotation",
+          "Positive Apprehension and Relocation test",
+          "Weak deltoid and supraspinatus (suspected axillary nerve involvement)"
+        ]
+      },
+      "assessment_data": "X-ray confirms anterior dislocation, Hill-Sachs lesion",
+      "physiotherapeutic_considerations": {
+        "immobilization_phase": "Sling support, pendular exercises, isometric scapular stabilizers",
+        "mobilization_phase": "Controlled ROM, rotator cuff strengthening, proprioceptive training",
+        "reintegration_phase": "Plyometrics, kinetic chain integration, return to climbing simulations"
+      },
+      "differential_diagnoses": ["Rotator cuff tear", "Brachial plexus injury"],
+      "biomechanics": "Hyperlaxity of GH joint; needs scapulohumeral rhythm correction",
+      "rating": 4.2
+    },
+    {
+      "title": "Ankle Sprain – Grade II Lateral Ligament",
+      "patient_profile": "19-year-old male, long-distance runner",
+      "presenting_complaint": "Lateral ankle pain and instability post-marathon",
+      "onset": "Insidious during final miles, worsened after rest",
+      "subjective_evaluation": "Pain with ambulation, perceived instability, audible 'pop' during run",
+      "objective_evaluation": {
+        "findings": [
+          "Edema and ecchymosis over lateral malleolus",
+          "Tender ATFL and CFL",
+          "Positive anterior drawer and talar tilt test"
+        ]
+      },
+      "assessment_data": "Radiographs show no fracture; clinical diagnosis – Grade II inversion sprain",
+      "physiotherapeutic_considerations": {
+        "phase_I": "PRICE protocol, immobilization, pain-free dorsiflexion/plantarflexion",
+        "phase_II": "Resistance band strengthening, balance board work",
+        "phase_III": "Dynamic stabilization, hop test training, proprioceptive ladder drills"
+      },
+      "differential_diagnoses": ["Peroneal tendon strain", "Osteochondral lesion of talus"],
+      "biomechanics": "Overpronation and poor ankle dorsiflexion ROM; requires gait re-training",
+      "rating": 4.0
+    },
+    {
+      "title": "Chronic Lower Back Pain – Disc Degeneration",
+      "patient_profile": "45-year-old female, desk-bound office worker",
+      "presenting_complaint": "Dull low back ache with stiffness, worsening over months",
+      "onset": "Gradual onset, worse with prolonged sitting",
+      "subjective_evaluation": "Stiffness in mornings, increased discomfort with flexion and standing after sitting",
+      "objective_evaluation": {
+        "findings": [
+          "Decreased lumbar flexion and extension",
+          "Palpable paraspinal tenderness",
+          "Negative straight leg raise",
+          "Poor core endurance"
+        ]
+      },
+      "assessment_data": "MRI shows L4-L5 disc dehydration and mild bulge",
+      "physiotherapeutic_considerations": {
+        "phase_I": "Education on posture, McKenzie extension protocol",
+        "phase_II": "Lumbar stabilization, core retraining (TA, multifidus)",
+        "phase_III": "Functional movement re-education, ergonomic assessment, lifting mechanics"
+      },
+      "differential_diagnoses": ["Facet joint syndrome", "SI joint dysfunction"],
+      "biomechanics": "Anterior pelvic tilt, poor load transfer across lumbopelvic complex",
+      "rating": 3.8
+    },
+    {
+      "title": "Wrist Fracture – Distal Radius",
+      "patient_profile": "12-year-old boy, high-energy fall from bicycle",
+      "presenting_complaint": "Pain and visible deformity in right wrist",
+      "onset": "Immediate trauma",
+      "subjective_evaluation": "Crying, inability to move hand or hold objects",
+      "objective_evaluation": {
+        "findings": [
+          "Obvious dorsal displacement (dinner fork deformity)",
+          "Swelling and guarding",
+          "Painful limited motion"
+        ]
+      },
+      "assessment_data": "X-ray confirms distal radius metaphyseal fracture",
+      "physiotherapeutic_considerations": {
+        "post_immobilization": "AROM exercises, edema control",
+        "strengthening_phase": "Progressive grip strengthening, dexterity drills",
+        "functional_phase": "Fine motor retraining for age-appropriate activities"
+      },
+      "differential_diagnoses": ["Salter-Harris fracture", "Carpal bone injury"],
+      "biomechanics": "Focus on developmental ergonomics and return to play",
+      "rating": 4.7
+    },
+    {
+      "title": "Lateral Epicondylitis – Tennis Elbow",
+      "patient_profile": "38-year-old male, weekend tennis player",
+      "presenting_complaint": "Gradual onset elbow pain on lateral side",
+      "onset": "Insidious after increased weekend play",
+      "subjective_evaluation": "Pain with gripping, resisted wrist extension, and carrying groceries",
+      "objective_evaluation": {
+        "findings": [
+          "Tenderness at lateral epicondyle",
+          "Positive Cozen’s and Mill’s tests",
+          "Decreased grip strength"
+        ]
+      },
+      "assessment_data": "Clinical diagnosis of lateral epicondylitis",
+      "physiotherapeutic_considerations": {
+        "phase_I": "Load management, ice massage, isometrics in pain-free range",
+        "phase_II": "Eccentric wrist extension loading, stretching ECRB",
+        "phase_III": "Kinetic chain integration, ergonomic re-training"
+      },
+      "differential_diagnoses": ["Radial tunnel syndrome", "Cervical radiculopathy"],
+      "biomechanics": "Poor force dissipation in upper limb chain; focus on scapular strength",
+      "rating": 4.1
+    }
+  ]
+}
