@@ -9,7 +9,8 @@
     "subjectiveEvaluation": "Pain rated 7/10, worsens with movement.",
     "objectiveEvaluation": "Swelling and reduced range of motion in the right knee.",
     "assessmentData": "Suspected meniscus tear based on McMurray test.",
-    "rating": "High priority"
+    "rating": "High priority",
+    "rehabPlan": "Week 1-2: RICE (Rest, Ice, Compression, Elevation) and NSAIDs.\nWeek 3-4: Begin range-of-motion and isometric quadriceps exercises.\nWeek 5-6: Progressive resistance training.\nWeek 7+: Return to running with gradual increase in intensity."
   },
   {
     "id": 2,
@@ -21,6 +22,7 @@
     "subjectiveEvaluation": "Pain rated 4/10, worse after long periods of sitting.",
     "objectiveEvaluation": "Decreased lumbar flexibility, muscle tightness.",
     "assessmentData": "Chronic mechanical low back pain with no neurological signs.",
-    "rating": "Moderate priority"
+    "rating": "Moderate priority",
+    "rehabPlan": "Week 1-2: Core stabilization exercises and posture education.\nWeek 3-4: Begin stretching routine for hamstrings and hip flexors.\nWeek 5-6: Introduce low-impact aerobic activity like walking or swimming.\nWeek 7+: Ergonomic assessment at workplace and maintenance plan."
   }
 ]
